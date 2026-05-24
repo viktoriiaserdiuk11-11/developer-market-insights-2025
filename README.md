@@ -88,4 +88,4 @@ The project uses exploratory analysis methods and focuses on understanding patte
 
 ## Author
 
-Created by Viktoriia Serdiuk as part of a learning portfolio in Data Analytics.
+Created by Viktoriia Serdiuk
