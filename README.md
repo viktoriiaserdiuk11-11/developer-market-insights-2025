@@ -100,5 +100,5 @@ Interactive version:
 
 ========================================
 ## Tableau Dashboard
-https://public.tableau.com/app/profile/viktoriia.serdiuk/viz/DeveloperMarketInsights2025/DeveloperMarketInsights2025
+[Open Tableau Dashboard](https://public.tableau.com/app/profile/viktoriia.serdiuk/viz/DeveloperMarketInsights2025/DeveloperMarketInsights2025)
 
