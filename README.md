@@ -1,104 +1,91 @@
 # Developer Market Insights 2025
 
 ## About the Project
-This project was created to practice real-world exploratory data analysis using the Stack Overflow Developer Survey 2025 dataset.
 
-I wanted to go beyond simple charts and work through the full beginner analytics workflow:
-- cleaning and preparing raw survey data
-- exploring patterns and trends
+This project was created as a practical exploratory data analysis project using the Stack Overflow Developer Survey 2025 dataset.
+
+The goal was not only to build charts, but to go through a full beginner analytics workflow:
+- loading and inspecting raw survey data
+- checking missing values and duplicates
+- cleaning incomplete records
+- exploring distributions and trends
 - building aggregations and metrics
-- visualizing insights in Tableau Public
-- presenting the results in a structured dashboard
+- creating visual insights in Tableau Public
+- presenting findings in a structured dashboard
 
-The analysis focuses on developer salaries, work formats, technology popularity, industry distribution, and Python adoption across different age groups.
+The analysis focuses on developer salaries, work formats, programming language popularity, industry distribution, and Python usage across different age groups.
 
-=============================
+---
+
+## Data Preparation
+
+Before analysis, the dataset was processed and cleaned:
+- checked for duplicate respondents
+- reviewed missing values
+- removed incomplete records in selected parts of the analysis
+- prepared fields for aggregation and visualization
+
+The project uses exploratory analysis methods and focuses on understanding patterns in survey responses.
+
+---
+
 ## Tools & Technologies
+
 - Python
 - Pandas
 - Jupyter Notebook
 - Tableau Public
 
-=============================
+---
+
 ## Questions Explored
+
 - Which countries show the highest median developer salaries?
 - Which programming languages are used most frequently?
 - What work formats are currently the most popular?
 - Which industries employ the largest number of developers?
-- Which age groups demonstrate the highest Python adoption?
+- Which age groups demonstrate the highest Python usage?
 
-=============================
+---
+
 ## Key Insights
-- Remote work remains highly popular among developers.
-- Python adoption is especially high among younger respondents.
-- Developer salaries differ significantly across countries.
-- Software Development had the largest share of highly paid remote workers.
 
-=============================
+- Remote and hybrid work formats remain highly popular among developers.
+- Developer salaries vary significantly across countries.
+- Python usage was more common among younger developer groups in the dataset.
+- Software Development showed one of the strongest combinations of remote work adoption and higher salary levels.
+
+---
+
+## Limitations
+
+- The analysis is based on survey responses and may not fully represent the global developer market.
+- Some insights are descriptive and intended for exploratory analysis practice.
+- Salary values and work preferences depend on self-reported survey data.
+- The dashboard should be interpreted as exploratory analytics rather than business forecasting.
+
+---
+
 ## Dashboard Preview
+
 ![Dashboard Preview](Developer Market Insights 2025.png)
 
-===============================
+---
+
 ## Tableau Dashboard
-Interactive version:
+
 [Open Tableau Dashboard](https://public.tableau.com/app/profile/viktoriia.serdiuk/viz/DeveloperMarketInsights2025/DeveloperMarketInsights2025)
 
-===============================
-## Project Files
-- `developer_market_insights_2025.ipynb` — data cleaning, analysis, aggregations, and calculations
-- `Developer Market Insights 2025.png` — dashboard preview
-- Tableau Public dashboard
+---
 
-===================================
-## What I Practiced
-- data cleaning and preparation
-- exploratory data analysis (EDA)
-- grouping and aggregation
-- working with survey datasets
-- basic analytical storytelling
-- dashboard layout and visualization design
+## Project Structure
 
-=====================================
-## Про проєкт
-Цей проєкт був створений для практики exploratory data analysis (дослідницького аналізу даних) на реальному датасеті Stack Overflow Developer Survey 2025.
-Мені хотілося пройти базовий аналітичний процес не тільки через побудову графіків, а й через:
-- очищення та підготовку даних
-- пошук закономірностей і трендів
-- побудову агрегатів та метрик
-- створення інтерактивного дашборду
-- оформлення результатів у вигляді портфоліо-проєкту
+- `developer_market_insights_2025.ipynb` — data cleaning, analysis, and aggregations
+- `Developer Market Insights 2025.png` — dashboard preview image
+- `README.md` — project documentation
 
-У проєкті аналізуються:
-- зарплати розробників у різних країнах
-- популярність мов програмування
-- формати роботи (remote / hybrid / on-site)
-- розподіл розробників за індустріями
-- популярність Python серед різних вікових груп
+---
 
-=========================================
-## Інструменти
-- Python
-- Pandas
-- Jupyter Notebook
-- Tableau Public
+## Author
 
-=========================================
-## Основні висновки
-- Віддалений формат роботи залишається дуже популярним серед розробників.
-- Python має особливо високу популярність серед молодших вікових груп.
-- Рівень зарплат суттєво відрізняється залежно від країни.
-- Найбільша частка високооплачуваних remote-спеціалістів працює у сфері Software Development.
-
-==========================================
-## Що було відпрацьовано
-- очищення та підготовка даних
-- exploratory data analysis (дослідницький аналіз даних)
-- побудова агрегатів
-- робота з survey data (даними опитування)
-- базовий analytical storytelling (аналітичний сторітелінг)
-- створення dashboard layout (структури дашборду)
-
-========================================
-## Tableau Dashboard
-[Open Tableau Dashboard](https://public.tableau.com/app/profile/viktoriia.serdiuk/viz/DeveloperMarketInsights2025/DeveloperMarketInsights2025)
-
+Created by Viktoriia Serdiuk as part of a learning portfolio in Data Analytics.
