@@ -4,7 +4,7 @@
 
 This project was created as a practical exploratory data analysis project using the Stack Overflow Developer Survey 2025 dataset.
 
-The goal was not only to build charts, but to go through a full beginner analytics workflow:
+The goal was not only to build charts, but to go through a full analytics workflow:
 - loading and inspecting raw survey data
 - checking missing values and duplicates
 - cleaning incomplete records
